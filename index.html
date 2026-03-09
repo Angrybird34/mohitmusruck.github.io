@@ -1,17 +1,71 @@
-<section class="terminal-section">
-    <div class="terminal-header">
-        <div class="buttons">
-            <span class="dot red"></span>
-            <span class="dot yellow"></span>
-            <span class="dot green"></span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Musruck | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-header">
+        <div class="lang-toggle"><span>en</span> <span class="dim">fr</span></div>
+        <div class="status-dot"></div>
+        <div class="menu-icon"><i class="fas fa-bars"></i></div>
+    </div>
+
+    <main class="container">
+        <div class="terminal-card">
+            <div class="terminal-content" id="terminal-output">
+                <div class="cmd-line">
+                    <span class="path">visitor@infra:~$</span> <span class="cmd">cat ~/.contact</span>
+                </div>
+                <div class="response">
+                    Email: mohit.musruck@cloud.mu<br>
+                    LinkedIn: linkedin.com/in/mohitmusruck
+                </div>
+                <div class="cmd-line">
+                    <span class="path">visitor@infra:~$</span> <span class="cmd">uptime</span>
+                </div>
+                <div class="response">Load: Stable | Mode: Continuous learning</div>
+                <div class="cmd-line">
+                    <span class="path">visitor@infra:~$</span> <span class="cursor">█</span>
+                </div>
+            </div>
         </div>
-        <div class="title">mohit@cloud-server: ~</div>
-    </div>
-    <div class="terminal-body" id="terminal-output">
-        <div class="line">Welcome to Mohit's Interactive CV. Type 'help' to begin.</div>
-    </div>
-    <div class="terminal-input-line">
-        <span class="prompt">mohit@cloud:~$</span>
-        <input type="text" id="terminal-input" autofocus>
-    </div>
-</section>
+
+        <h1 class="section-title">Professional Experience</h1>
+        <p class="subtitle">Building expertise in cloud infrastructure and Linux systems.</p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="icon-box"><i class="fas fa-server"></i></div>
+                <div class="details">
+                    <h3>Cloud Professional</h3>
+                    <span class="company">Tech Industry</span>
+                    <span class="date">2023 - Present <span class="current-tag">CURRENT</span></span>
+                    <p>Managing enterprise infrastructure and monitoring production environments.</p>
+                    <ul class="points">
+                        <li>24/7 Server Monitoring</li>
+                        <li>Linux CLI Administration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Skills & Certifications</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Platforms</h3>
+                <p>Azure, Virtualization, Cloud Infrastructure</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-terminal"></i>
+                <h3>Systems</h3>
+                <p>Linux (Ubuntu/Debian), Bash Scripting</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
